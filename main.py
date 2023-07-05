@@ -81,3 +81,27 @@
 # Написать программу-калькулятор.
 # Пользователь вводит два числа и выбирает арифметическое действие.
 # Вывести на экран результат.
+##############################################################################################
+# try:
+#     num1 = int(input("Enter first number: "))
+#     mathAction = input("Enter mathematical action (*, /, +, -): ")
+#     num2 = int(input("Enter second number: "))
+#
+#     match mathAction:
+#         case "*":
+#             print(f"{num1} {mathAction} {num2} = {num1 * num2}")
+#         case "/":
+#             print(f"{num1} {mathAction} {num2} = {num1 / num2}")
+#         case "+":
+#             print(f"{num1} {mathAction} {num2} = {num1 + num2}")
+#         case "-":
+#             print(f"{num1} {mathAction} {num2} = {num1 - num2}")
+#         case _:
+#             print("Enter the correct mathematical action!")
+# except ValueError as error:
+#     print("Enter only integer!")
+# except ZeroDivisionError as error:
+#     print("You cannot divide by zero!")
+# finally:
+#     print("The calculator is closed.")
+##############################################################################################
