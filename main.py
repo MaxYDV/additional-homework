@@ -105,3 +105,18 @@
 # finally:
 #     print("The calculator is closed.")
 ##############################################################################################
+# Задание 7
+# Написать программу, которая по выбору пользователя возводит
+# введенное им число в степень от нулевой до седьмой включительно.
+##############################################################################################
+# try:
+#     num1 = int(input("Enter integer: "))
+#     degree = int(input("Enter the degree of a number from 0-7: "))
+#     result = num1 ** degree
+#     if degree < 0 or degree > 7:
+#         print("The program cannot calculate the power of a number!")
+#     else:
+#         print(f"{num1} to the power of {degree} = {result}")
+# except ValueError as error:
+#     print("Enter only integer!")
+##############################################################################################
