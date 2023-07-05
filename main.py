@@ -41,7 +41,26 @@
 # Пользователь с клавиатуры вводит 5 оценок студента.
 # Определить, допущен ли студент к экзамену.
 # Студент получает допуск, если его средний балл 4 балла и выше.
+##############################################################################################
+# try:
+#     eval1 = int(input("Enter the first grade from 1 to 5 : "))
+#     eval2 = int(input("Enter the second grade from 1 to 5: "))
+#     eval3 = int(input("Enter the third grade from 1 to 5: "))
+#     eval4 = int(input("Enter the fourth grade from 1 to 5: "))
+#     eval5 = int(input("Enter the fifth grade from 1 to 5: "))
+#     average = (eval1 + eval2 + eval3 + eval4 + eval5) / 5
 #
+#     if eval1 > 5 or eval1 <= 0 or eval2 > 5 or eval2 <= 0 or eval3 > 5 or eval3 <= 0 or eval4 > 5 or eval4 <= 0 or eval5 > 5 or eval5 <= 0:
+#         print("Incorrect evaluation!")
+#     else:
+#         if 4 <= average <= 5:
+#             print(f"Student accepted!Average score: {average}")
+#         else:
+#             print(f"Student not accepted!Average score: {average}")
+#
+# except ValueError as error:
+#     print("Enter only integer!")
+############################################################################################1##
 # Задание 5
 # Пользователь вводит с клавиатуры число.
 # Если оно четное, умножить его на три, иначе – поделить на два.
